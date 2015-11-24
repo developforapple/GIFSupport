@@ -11,7 +11,7 @@
  */
 
 #ifndef DDAssetsPickerSupport
-#define DDAssetsPickerSupport 1
+#define DDAssetsPickerSupport 0 //支持我自己的图片选择器，开关关掉即可编译过
 #endif
 
 #import <Foundation/Foundation.h>
