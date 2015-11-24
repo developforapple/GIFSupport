@@ -256,10 +256,7 @@ static UIImageView *imageView;
 
 - (nullable NSData *)gifData
 {
-    if ([self isGif]) {
-        return self;
-    }
-    return nil;
+    return self;
 }
 
 - (nullable UIImage *)gifImage
